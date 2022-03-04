@@ -1,2 +1,2 @@
 # k8s
-Kubernetes cluster bits and parts
+Kubernetes bits and parts
