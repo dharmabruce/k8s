@@ -1,0 +1,12 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: platform
+  annotations:
+    apps.open-cluster-management.io/git-path: apps/platform
+    apps.open-cluster-management.io/git-branch: feature/add-some-configs
+spec:
+  channel: platform/platform
+  placement:
+    local: true

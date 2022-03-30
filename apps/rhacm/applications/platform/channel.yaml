@@ -1,0 +1,8 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Channel
+metadata:
+  name: platform
+spec:
+  pathname: git@github.com:sean-vaughan/k8s.git
+  type: Git

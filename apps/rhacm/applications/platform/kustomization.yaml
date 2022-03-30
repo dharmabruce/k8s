@@ -1,0 +1,15 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: platform
+
+resources:
+  - subscription.yaml
+  - placement.yaml
+  - channel.yaml
+  - application.yaml
+  - namespace.yaml
+
+commonLabels:
+  app.kubernetes.io/name: platform

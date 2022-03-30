@@ -1,0 +1,11 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: PlacementRule
+metadata:
+  name: platform
+  labels:
+    app.kubernetes.io/name: platform
+spec:
+  clusterConditions:
+    - type: ManagedClusterConditionAvailable
+      status: "True"

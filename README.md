@@ -1,2 +1,5 @@
 # k8s
-Kubernetes bits and parts
+Simple Kubernetes bits and parts
+
+[apps/] application kustomize configurations
+[clusters/] cluster kustomize configurations

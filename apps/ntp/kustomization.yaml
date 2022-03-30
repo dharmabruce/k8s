@@ -1,0 +1,10 @@
+---
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+namespace: platform
+
+resources:
+  - 99-chrony-masters.yaml
+  - 99-chrony-infra.yaml
+  - 99-chrony-workers.yaml
