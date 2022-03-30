@@ -4,5 +4,5 @@ kind: Channel
 metadata:
   name: platform
 spec:
-  pathname: git@github.com:sean-vaughan/k8s.git
+  pathname: git@github.com:dharmabruce/k8s.git
   type: Git
