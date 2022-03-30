@@ -14,3 +14,6 @@ resources:
   - cluster-role.yaml
   - cluster-role-binding.yaml
   - namespace.yaml
+
+commonLabels:
+  app.kubernetes.io/name: platform

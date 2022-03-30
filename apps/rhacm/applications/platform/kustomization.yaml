@@ -5,7 +5,7 @@ kind: Kustomization
 namespace: platform
 
 resources:
-  - subscription.yaml
+  - subscriptions
   - placement.yaml
   - channel.yaml
   - application.yaml

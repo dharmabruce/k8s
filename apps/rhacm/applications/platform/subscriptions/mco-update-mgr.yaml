@@ -1,0 +1,12 @@
+---
+apiVersion: apps.open-cluster-management.io/v1
+kind: Subscription
+metadata:
+  name: mco-update-mgr
+  annotations:
+    apps.open-cluster-management.io/git-path: apps/mco-update-mgr
+    apps.open-cluster-management.io/git-branch: feature/add-some-configs
+spec:
+  channel: platform/platform
+  placement:
+    local: true

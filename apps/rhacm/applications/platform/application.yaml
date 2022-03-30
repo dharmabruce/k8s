@@ -4,12 +4,7 @@ kind: Application
 metadata:
   name: platform
 spec:
-  componentKinds:
-    - group: apps.open-cluster-managed.io
-      kind: Subscription
   descriptor: {}
   selector:
-    matchExpression:
-      - key: app.kubernetes.io/name
-        operator: In
-        values: [platform]
+    matchLabels:
+      app.kubernetes.io/name: platform
