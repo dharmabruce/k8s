@@ -13,4 +13,4 @@ spec:
   deny:
     - apiVersion: v1
       kinds:
-        - namespace
+        - Namespace
