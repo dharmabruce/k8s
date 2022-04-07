@@ -8,6 +8,6 @@ resources:
   - 99-chrony-masters.yaml
   - 99-chrony-infra.yaml
   - 99-chrony-workers.yaml
-
+  - namespace.yaml
 commonLabels:
   app.kubernetes.io/name: platform

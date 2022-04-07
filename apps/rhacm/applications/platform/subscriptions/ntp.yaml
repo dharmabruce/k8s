@@ -10,3 +10,7 @@ spec:
   channel: platform/platform
   placement:
     local: true
+  deny:
+    - apiVersion: v1
+      kinds:
+        - namespace
